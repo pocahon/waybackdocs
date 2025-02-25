@@ -5,7 +5,7 @@ WaybackDocs is a command-line tool written in Go that downloads historical docum
 ## Features
 
 - **Historical Document Retrieval:** Download snapshots of documents from the Internet Archive's Wayback Machine.
-- **File Filtering:** Only downloads files with the extensions `.doc`, `.docx`, and `.pdf` (ignores `.txt` and `.eml` files).
+- **File Filtering:** Only downloads files with the extensions `.doc`, `.docx`, and `.pdf`.
 - **Concurrent Downloads:** Uses a worker pool to process multiple downloads in parallel.
 - **Customizable Delay:** Implements a 10-second delay before starting each download to ensure the website loads properly.
 - **Simple Installation:** Easily installable using the Go toolchain.

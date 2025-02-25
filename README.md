@@ -15,4 +15,4 @@ WaybackDocs is a command-line tool written in Go that downloads historical docum
 Make sure you have Go installed, then install WaybackDocs with:
 
 ```bash
-go install github.com/<your-username>/waybackdocs@latest
+go install github.com/pocahon/waybackdocs@latest
